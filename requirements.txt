@@ -1,0 +1,28 @@
+# Streamlit Framework
+streamlit
+
+# Google Gemini AI - NEW SDK
+google-genai
+
+# OpenAI
+openai
+
+# Environment Variables
+python-dotenv
+
+# File Handling
+python-multipart
+pypdf2
+python-docx
+
+# Data Processing
+pandas
+numpy
+
+# HTTP Requests
+requests
+
+# Logging
+loguru
+
+# u need python 3.111 version or higher to use the file search api

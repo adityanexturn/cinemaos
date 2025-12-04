@@ -1,0 +1,85 @@
+2025-12-04 15:32:33 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 15:32:35 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully (SDK v1.53.0+)
+2025-12-04 15:32:35 | INFO     | services.story_generation:__init__ - OpenAI story generation service initialized successfully
+2025-12-04 15:32:35 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:32:35 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:32:35 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:32:35 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:33:00 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:33:00 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:33:00 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:33:00 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:33:00 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:33:02 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:33:02 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:33:02 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:33:02 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:33:02 | INFO     | services.gemini_file_search:create_file_search_store - Creating file search store: cinema_os_rag_store
+2025-12-04 15:33:03 | INFO     | services.gemini_file_search:create_file_search_store - File search store created: fileSearchStores/cinemaosragstore-f9lcw36rzsx5
+2025-12-04 15:33:03 | INFO     | services.gemini_file_search:upload_files_to_store - Processing file: Krishna The God.pdf
+2025-12-04 15:33:03 | INFO     | services.gemini_file_search:upload_files_to_store - Uploading to store fileSearchStores/cinemaosragstore-f9lcw36rzsx5...
+2025-12-04 15:33:12 | INFO     | services.gemini_file_search:upload_files_to_store - File indexed successfully: Krishna The God.pdf
+2025-12-04 15:33:12 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:33:12 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:33:12 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:33:12 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:33:12 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:33:51 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:33:51 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:33:51 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:33:51 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:33:51 | INFO     | services.gemini_file_search:query_rag - Querying RAG with store: fileSearchStores/cinemaosragstore-f9lcw36rzsx5
+2025-12-04 15:33:57 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:33:57 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:33:57 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:33:57 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:33:57 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:36:01 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:36:01 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:36:01 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:36:01 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:36:01 | INFO     | services.gemini_file_search:query_rag - Querying RAG with store: fileSearchStores/cinemaosragstore-f9lcw36rzsx5
+2025-12-04 15:36:06 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:36:06 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:36:06 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:36:06 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:36:06 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:36:56 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:36:56 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:36:56 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:36:56 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:36:56 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:36:56 | INFO     | components.story_console:render_story_console - OpenAI model changed to: gpt-3.5-turbo
+2025-12-04 15:37:18 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:37:18 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:37:18 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:37:18 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:37:18 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:37:24 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:37:24 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:37:24 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:37:24 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:37:24 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:37:24 | INFO     | services.story_generation:generate_stories - Generating 5 story variations for idea: a cat and a dog fighting...
+2025-12-04 15:37:29 | ERROR    | services.story_generation:generate_stories - Story generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-12-04 15:39:12 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:39:12 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:39:12 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:39:12 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:39:12 | INFO     | services.gemini_file_search:query_rag - Querying RAG with store: fileSearchStores/cinemaosragstore-f9lcw36rzsx5
+2025-12-04 15:39:14 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:39:14 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:39:14 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:39:14 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:39:14 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:39:14 | INFO     | components.story_console:render_story_console - OpenAI model changed to: gpt-4o
+2025-12-04 15:39:42 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:39:42 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:39:42 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:39:42 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:39:42 | INFO     | services.gemini_file_search:query_rag - Querying RAG with store: fileSearchStores/cinemaosragstore-f9lcw36rzsx5
+2025-12-04 15:39:51 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:39:51 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:39:51 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:39:51 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:39:51 | INFO     | __main__:main - Rendering story console compartment

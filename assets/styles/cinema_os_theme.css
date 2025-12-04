@@ -1,0 +1,352 @@
+/* 
+Cinema OS Professional Theme
+Dark cinema-inspired design with gradient accents
+*/
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@700&display=swap');
+
+/* Global Styling */
+* {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Main App Background */
+.main {
+    background: linear-gradient(135deg, #0a0e1a 0%, #1a1f2e 50%, #0f1419 100%);
+}
+
+/* Remove Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Gradient Title Styling */
+.cinema-title {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 25%, #c44569 50%, #ff6b6b 75%, #ee5a6f 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    animation: gradient-shift 3s ease infinite;
+    letter-spacing: -1px;
+}
+
+@keyframes gradient-shift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* Tagline */
+.tagline {
+    text-align: center;
+    color: #8b92a7;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Section Headers */
+h3 {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 10px !important;
+}
+
+h4 {
+    color: #d1d5db !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+}
+
+/* Style the columns themselves */
+[data-testid="column"] {
+    background: linear-gradient(145deg, #1a1f2e 0%, #151923 100%);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #2d3748;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+}
+
+/* Different gradient for right column */
+[data-testid="column"]:nth-child(2) {
+    background: linear-gradient(145deg, #1e1a2e 0%, #191523 100%);
+    border: 1px solid #3d2d48;
+}
+
+/* Style containers inside columns */
+[data-testid="column"] [data-testid="stVerticalBlock"] > div {
+    background: transparent !important;
+}
+
+/* Target Streamlit columns directly */
+div[data-testid="column"] > div > div {
+    background: linear-gradient(145deg, #1a1f2e 0%, #151923 100%);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #2d3748;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+}
+
+/* Right column different styling */
+div[data-testid="column"]:last-child > div > div {
+    background: linear-gradient(145deg, #1e1a2e 0%, #191523 100%);
+    border: 1px solid #3d2d48;
+}
+
+
+/* Dividers */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #ff6b6b, transparent);
+    margin: 20px 0;
+    opacity: 0.3;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(135deg, #ee5a6f 0%, #c44569 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(238, 90, 111, 0.3);
+    letter-spacing: 0.3px;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(238, 90, 111, 0.5);
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+}
+
+.stButton > button:active {
+    transform: translateY(0px);
+}
+
+/* Secondary Buttons */
+.stButton > button[kind="secondary"] {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+    box-shadow: 0 4px 15px rgba(74, 85, 104, 0.3);
+}
+
+.stButton > button[kind="secondary"]:hover {
+    background: linear-gradient(135deg, #5a6578 0%, #3d4758 100%);
+    box-shadow: 0 8px 25px rgba(74, 85, 104, 0.5);
+}
+
+/* Text Inputs & Text Areas */
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea {
+    background-color: #1a1f2e !important;
+    border: 1px solid #2d3748 !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+    padding: 12px 16px !important;
+    font-size: 0.95rem !important;
+    transition: all 0.3s ease;
+}
+
+.stTextInput > div > div > input:focus,
+.stTextArea > div > div > textarea:focus {
+    border-color: #ee5a6f !important;
+    box-shadow: 0 0 0 3px rgba(238, 90, 111, 0.1) !important;
+}
+
+/* Select Boxes */
+.stSelectbox > div > div > div {
+    background-color: #1a1f2e !important;
+    border: 1px solid #2d3748 !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+}
+
+/* Sliders */
+.stSlider > div > div > div > div {
+    background-color: #ee5a6f !important;
+}
+
+.stSlider > div > div > div {
+    background-color: #2d3748 !important;
+}
+
+/* File Uploader */
+.uploadedFile {
+    background: linear-gradient(135deg, #1e2533 0%, #1a1f2e 100%) !important;
+    border: 1px solid #2d3748 !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    margin: 10px 0 !important;
+}
+
+.stFileUploader > div {
+    background-color: #1a1f2e !important;
+    border: 2px dashed #2d3748 !important;
+    border-radius: 12px !important;
+    padding: 30px !important;
+    transition: all 0.3s ease;
+}
+
+.stFileUploader > div:hover {
+    border-color: #ee5a6f !important;
+    background-color: #1e2533 !important;
+}
+
+/* Chat Messages */
+.stChatMessage {
+    background: linear-gradient(145deg, #1e2533 0%, #1a1f2e 100%) !important;
+    border-radius: 16px !important;
+    padding: 16px 20px !important;
+    margin: 10px 0 !important;
+    border: 1px solid #2d3748 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Chat Input */
+.stChatInput > div {
+    background-color: #1a1f2e !important;
+    border: 1px solid #2d3748 !important;
+    border-radius: 12px !important;
+}
+
+.stChatInput input {
+    color: #ffffff !important;
+}
+
+/* Story Cards */
+.story-card {
+    background: linear-gradient(145deg, #1e2533 0%, #1a1f2e 100%);
+    border: 1px solid #2d3748;
+    border-left: 4px solid #ee5a6f;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 15px 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.story-card:hover {
+    transform: translateX(8px);
+    border-left-color: #ff6b6b;
+    box-shadow: 0 8px 24px rgba(238, 90, 111, 0.2);
+}
+
+/* Info/Success/Error Boxes */
+.stAlert {
+    border-radius: 12px !important;
+    border: none !important;
+    padding: 16px 20px !important;
+}
+
+/* Success Box */
+div[data-baseweb="notification"] {
+    background-color: rgba(52, 211, 153, 0.1) !important;
+    border-left: 4px solid #34d399 !important;
+    border-radius: 12px !important;
+}
+
+/* Error Box */
+.stAlert[data-baseweb="notification"][kind="error"] {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    border-left: 4px solid #ef4444 !important;
+}
+
+/* Info Box */
+.stAlert[data-baseweb="notification"][kind="info"] {
+    background-color: rgba(59, 130, 246, 0.1) !important;
+    border-left: 4px solid #3b82f6 !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #1a1f2e !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+/* Spinner */
+.stSpinner > div {
+    border-top-color: #ee5a6f !important;
+}
+
+/* Caption Text */
+.caption {
+    color: #8b92a7 !important;
+    font-size: 0.85rem !important;
+}
+
+/* Container Spacing */
+.element-container {
+    margin-bottom: 1rem;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1f2e;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #ee5a6f 0%, #c44569 100%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+}
+
+/* Dialog/Modal */
+[data-testid="stModal"] {
+    background-color: rgba(10, 14, 26, 0.95) !important;
+}
+
+[data-testid="stModal"] > div {
+    background: linear-gradient(145deg, #1a1f2e 0%, #151923 100%) !important;
+    border: 1px solid #2d3748 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Footer */
+.footer-text {
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.9rem;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.footer-text strong {
+    color: #ee5a6f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cinema-title {
+        font-size: 2.5rem;
+    }
+    
+    .compartment-left,
+    .compartment-right {
+        padding: 20px;
+    }
+}

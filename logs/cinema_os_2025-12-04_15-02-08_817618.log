@@ -1,0 +1,19 @@
+2025-12-04 15:02:08 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 15:02:09 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully
+2025-12-04 15:02:09 | INFO     | services.story_generation:__init__ - OpenAI story generation service initialized successfully
+2025-12-04 15:02:09 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:02:09 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:02:09 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:02:09 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:02:16 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:02:16 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:02:16 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:02:16 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:02:16 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:02:18 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:02:18 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:02:18 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:02:18 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:02:18 | INFO     | services.gemini_file_search:create_file_search_store - Creating file search store: cinema_os_rag_store
+2025-12-04 15:02:18 | ERROR    | services.gemini_file_search:create_file_search_store - Failed to create file search store: 'Client' object has no attribute 'file_search_stores'
+2025-12-04 15:02:18 | INFO     | __main__:main - Rendering story console compartment

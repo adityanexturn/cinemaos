@@ -1,0 +1,6 @@
+2025-12-04 13:10:30 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 13:12:18 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully
+2025-12-04 13:17:29 | INFO     | services.story_generation:__init__ - OpenAI story generation service initialized successfully
+2025-12-04 13:17:29 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 13:17:29 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 13:17:29 | INFO     | __main__:main - Rendering story console compartment

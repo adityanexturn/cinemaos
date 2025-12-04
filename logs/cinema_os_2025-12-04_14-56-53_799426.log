@@ -1,0 +1,38 @@
+2025-12-04 14:56:53 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 14:56:53 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully
+2025-12-04 14:56:54 | INFO     | services.story_generation:__init__ - OpenAI story generation service initialized successfully
+2025-12-04 14:56:54 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 14:56:54 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 14:56:54 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 14:56:54 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 14:57:17 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 14:57:17 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 14:57:17 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 14:57:17 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 14:57:17 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 14:57:20 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 14:57:20 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 14:57:20 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 14:57:20 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 14:57:20 | INFO     | services.gemini_file_search:create_file_search_store - Creating file search store: cinema_os_rag_store
+2025-12-04 14:57:20 | ERROR    | services.gemini_file_search:create_file_search_store - Failed to create file search store: module 'google.generativeai' has no attribute 'create_corpus'
+2025-12-04 14:57:20 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 14:57:25 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 14:57:25 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 14:57:25 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 14:57:25 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 14:57:25 | INFO     | services.gemini_file_search:create_file_search_store - Creating file search store: cinema_os_rag_store
+2025-12-04 14:57:25 | ERROR    | services.gemini_file_search:create_file_search_store - Failed to create file search store: module 'google.generativeai' has no attribute 'create_corpus'
+2025-12-04 14:57:25 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 14:58:13 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 14:58:13 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 14:58:13 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 14:58:13 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 14:58:13 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 14:58:15 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 14:58:15 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 14:58:15 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 14:58:15 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 14:58:15 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 14:58:15 | INFO     | services.story_generation:generate_stories - Generating 5 story variations for idea: a cat and a dog fighting...
+2025-12-04 14:58:19 | ERROR    | services.story_generation:generate_stories - Story generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}

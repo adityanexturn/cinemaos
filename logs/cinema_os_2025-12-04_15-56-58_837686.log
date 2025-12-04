@@ -1,0 +1,148 @@
+2025-12-04 15:56:58 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 15:56:59 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully (SDK v1.53.0+)
+2025-12-04 15:56:59 | INFO     | services.story_generation:__init__ - OpenAI story generation service initialized successfully
+2025-12-04 15:56:59 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:56:59 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:56:59 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:56:59 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:57:11 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:57:11 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:57:11 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:57:11 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:57:13 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:57:13 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:57:13 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:57:13 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:57:13 | INFO     | services.story_generation:generate_stories - Generating 5 story variations for idea: a cat and a dog fighting
+...
+2025-12-04 15:57:15 | INFO     | services.story_generation:generate_stories - Successfully generated 1 stories
+2025-12-04 15:57:15 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:57:15 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:57:15 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:57:15 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:57:26 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:57:26 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:57:26 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:57:26 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:57:45 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:57:45 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:57:45 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:57:45 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:57:59 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:57:59 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:57:59 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:57:59 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:57:59 | INFO     | services.story_generation:generate_stories - Generating 6 story variations for idea: a cat and a dog fighting
+...
+2025-12-04 15:58:01 | INFO     | services.story_generation:generate_stories - Successfully generated 1 stories
+2025-12-04 15:58:01 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:01 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:01 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:01 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:10 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:10 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:10 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:10 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:24 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:24 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:24 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:24 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:24 | INFO     | services.story_generation:generate_stories - Generating 4 story variations for idea: a cat and a dog fighting
+...
+2025-12-04 15:58:26 | INFO     | services.story_generation:generate_stories - Successfully generated 1 stories
+2025-12-04 15:58:26 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:26 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:26 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:26 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:36 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:36 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:36 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:36 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:36 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:36 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:36 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:36 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:39 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:39 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:39 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:39 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:40 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:40 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:40 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:40 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:43 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:43 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:43 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:43 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:58:43 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:58:43 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:58:43 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:58:43 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:59:45 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:59:45 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:59:45 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:59:45 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:59:45 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 15:59:47 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:59:47 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:59:47 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:59:47 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:59:47 | INFO     | services.gemini_file_search:create_file_search_store - Creating file search store: cinema_os_rag_store
+2025-12-04 15:59:48 | INFO     | services.gemini_file_search:create_file_search_store - File search store created: fileSearchStores/cinemaosragstore-g6hm9rzmrvri
+2025-12-04 15:59:48 | INFO     | services.gemini_file_search:upload_files_to_store - Processing file: Krishna The God.pdf
+2025-12-04 15:59:48 | INFO     | services.gemini_file_search:upload_files_to_store - Uploading to store fileSearchStores/cinemaosragstore-g6hm9rzmrvri...
+2025-12-04 15:59:58 | INFO     | services.gemini_file_search:upload_files_to_store - File indexed successfully: Krishna The God.pdf
+2025-12-04 15:59:58 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:59:58 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 15:59:58 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 15:59:58 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 15:59:58 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 16:00:09 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:00:09 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:00:09 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:00:09 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:00:09 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 16:00:14 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:00:14 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:00:14 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:00:14 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:00:14 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 16:00:15 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:00:15 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:00:15 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:00:15 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:00:15 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 16:00:18 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:00:18 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:00:18 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:00:18 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:00:18 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 16:00:18 | INFO     | services.story_generation:generate_stories - Generating 4 story variations for idea: a cat and a dog fighting
+
+...
+2025-12-04 16:00:49 | INFO     | services.story_generation:generate_stories - Successfully generated 1 stories
+2025-12-04 16:00:49 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:00:49 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:00:49 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:00:49 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:00:49 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 16:03:00 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:03:00 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:03:00 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:03:00 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:03:00 | INFO     | services.gemini_file_search:query_rag - Querying RAG with store: fileSearchStores/cinemaosragstore-g6hm9rzmrvri
+2025-12-04 16:03:06 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:03:06 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:03:06 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:03:06 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:03:06 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 16:04:00 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:04:00 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:04:00 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:04:00 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:04:00 | INFO     | services.gemini_file_search:query_rag - Querying RAG with store: fileSearchStores/cinemaosragstore-g6hm9rzmrvri
+2025-12-04 16:04:04 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 16:04:04 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 16:04:04 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 16:04:04 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 16:04:04 | INFO     | __main__:main - Rendering story console compartment

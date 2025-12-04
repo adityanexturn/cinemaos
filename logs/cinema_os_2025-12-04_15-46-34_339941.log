@@ -1,0 +1,5 @@
+2025-12-04 15:46:34 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 15:46:34 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully (SDK v1.53.0+)
+2025-12-04 15:46:34 | INFO     | services.story_generation:__init__ - OpenAI story generation service initialized successfully
+2025-12-04 15:46:34 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 15:46:34 | INFO     | __main__:load_css - Custom CSS loaded successfully
