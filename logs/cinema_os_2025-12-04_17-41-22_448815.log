@@ -19,3 +19,48 @@
 2025-12-04 17:42:10 | INFO     | services.gemini_file_search:upload_files_to_store - Uploading to store fileSearchStores/cinemaosragstore-8fj81gfuvw72...
 2025-12-04 17:42:19 | INFO     | services.gemini_file_search:upload_files_to_store - File indexed successfully: Krishna The God.pdf
 2025-12-04 17:42:19 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 17:54:49 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 17:54:49 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 17:54:49 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 17:54:49 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 17:54:49 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 17:54:49 | INFO     | services.story_generation:generate_stories - Generating 3 variations using gemini-2.5-flash...
+2025-12-04 17:54:49 | INFO     | services.story_generation:generate_stories - Generating story variation 1/3
+2025-12-04 17:54:55 | WARNING  | services.story_generation:generate_stories - Variation 1 returned empty text. Candidate finish reason: FinishReason.MAX_TOKENS
+2025-12-04 17:54:55 | INFO     | services.story_generation:generate_stories - Story 1 generated successfully (19 words)
+2025-12-04 17:54:55 | INFO     | services.story_generation:generate_stories - Generating story variation 2/3
+2025-12-04 17:55:00 | WARNING  | services.story_generation:generate_stories - Variation 2 returned empty text. Candidate finish reason: FinishReason.MAX_TOKENS
+2025-12-04 17:55:00 | INFO     | services.story_generation:generate_stories - Story 2 generated successfully (19 words)
+2025-12-04 17:55:00 | INFO     | services.story_generation:generate_stories - Generating story variation 3/3
+2025-12-04 17:55:06 | WARNING  | services.story_generation:generate_stories - Variation 3 returned empty text. Candidate finish reason: FinishReason.MAX_TOKENS
+2025-12-04 17:55:06 | INFO     | services.story_generation:generate_stories - Story 3 generated successfully (19 words)
+2025-12-04 17:55:06 | INFO     | services.story_generation:generate_stories - All 3 stories generated successfully
+2025-12-04 20:17:41 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:17:41 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:17:41 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:17:41 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:18:06 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:18:06 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:18:06 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:18:06 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:18:06 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:18:06 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:18:06 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:18:06 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:18:07 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:18:07 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:18:07 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:18:07 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:18:08 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:18:08 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:18:08 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:18:08 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:18:09 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:18:09 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:18:09 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:18:09 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:18:09 | INFO     | services.story_generation:generate_stories - Generating 1 variations using gemini-2.5-flash...
+2025-12-04 20:18:09 | INFO     | services.story_generation:generate_stories - Generating story variation 1/1
+2025-12-04 20:18:13 | WARNING  | services.story_generation:generate_stories - Variation 1 returned empty text. Candidate finish reason: FinishReason.MAX_TOKENS
+2025-12-04 20:18:13 | INFO     | services.story_generation:generate_stories - Story 1 generated successfully (19 words)
+2025-12-04 20:18:13 | INFO     | services.story_generation:generate_stories - All 1 stories generated successfully

@@ -1,0 +1,50 @@
+2025-12-04 20:24:20 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 20:24:20 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully (SDK v1.53.0+)
+2025-12-04 20:24:20 | INFO     | services.story_generation:__init__ - Story Service ready. Primary: gemini-2.5-flash
+2025-12-04 20:24:20 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:24:20 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:24:20 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:24:20 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:24:44 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:24:44 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:24:44 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:24:44 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:24:48 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:24:48 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:24:48 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:24:48 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:24:50 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:24:50 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:24:50 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:24:50 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:24:52 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:24:52 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:24:52 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:24:52 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:24:54 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:24:54 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:24:54 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:24:54 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:24:55 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:24:55 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:24:55 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:24:55 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:24:55 | INFO     | services.story_generation:generate_stories - Generating 2 variations...
+2025-12-04 20:24:55 | INFO     | services.story_generation:generate_stories - Variation 1: Trying gemini-2.5-flash...
+2025-12-04 20:25:05 | INFO     | services.story_generation:generate_stories - Variation 2: Trying gemini-2.5-flash...
+2025-12-04 20:25:18 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:25:18 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:25:18 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:25:18 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:25:18 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:25:18 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:25:18 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:25:18 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:25:22 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:25:22 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:25:22 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:25:22 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 20:25:22 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 20:25:22 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 20:25:22 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 20:25:22 | INFO     | __main__:main - Rendering story console compartment

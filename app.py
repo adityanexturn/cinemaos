@@ -100,8 +100,6 @@ def main():
     st.markdown(
         f'<div class="footer-text">'
         f'<p>{APP_ICON} <strong>{APP_NAME}</strong> - Powered by Gemini File Search & OpenAI</p>'
-        f'<p style="font-size: 0.85em; color: #8b92a7;">Left: RAG Document Chat (Gemini) | Right: Story Generation (OpenAI)</p>'
-        f'</div>',
         unsafe_allow_html=True
     )
 
