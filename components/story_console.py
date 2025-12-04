@@ -29,10 +29,10 @@ def render_story_console():
     
     # Gemini Models suited for creative writing
     gemini_models = [
+        "gemini-2.5-flash",
         "gemini-1.5-pro",
         "gemini-1.5-flash",
-        "gemini-1.5-flash-8b",
-        "gemini-2.0-flash-exp" # Experimental if available
+        "gemini-3.0"
     ]
     
     # Attempt to find the default model index

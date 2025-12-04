@@ -1,0 +1,14 @@
+2025-12-04 17:33:07 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 17:33:07 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully (SDK v1.53.0+)
+2025-12-04 17:33:07 | INFO     | services.story_generation:__init__ - Story Generation service initialized (Model: gemini-2.5-flash)
+2025-12-04 17:33:07 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 17:33:07 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 17:33:07 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 17:33:07 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 17:33:09 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 17:33:09 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 17:33:09 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 17:33:09 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 17:33:09 | INFO     | services.story_generation:generate_stories - Generating 2 variations for: a cat and a dog fighting...
+2025-12-04 17:33:09 | INFO     | services.story_generation:generate_stories - Generating story variation 1/2
+2025-12-04 17:33:12 | ERROR    | services.story_generation:generate_stories - Story generation failed: 'NoneType' object has no attribute 'split'

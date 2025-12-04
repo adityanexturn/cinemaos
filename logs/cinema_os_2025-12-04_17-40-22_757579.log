@@ -1,0 +1,21 @@
+2025-12-04 17:40:22 | INFO     | utils.logger:setup_logger - Cinema OS logger initialized successfully
+2025-12-04 17:40:22 | INFO     | services.gemini_file_search:__init__ - Gemini File Search service initialized successfully (SDK v1.53.0+)
+2025-12-04 17:40:22 | INFO     | services.story_generation:__init__ - Story Generation service initialized (Model: gemini-2.5-flash)
+2025-12-04 17:40:22 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 17:40:22 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 17:40:22 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 17:40:22 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 17:40:29 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 17:40:29 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 17:40:29 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 17:40:29 | INFO     | __main__:main - Rendering story console compartment
+2025-12-04 17:40:32 | INFO     | __main__:<module> - Starting Cinema OS application
+2025-12-04 17:40:32 | INFO     | __main__:load_css - Custom CSS loaded successfully
+2025-12-04 17:40:32 | INFO     | __main__:main - Rendering RAG chat compartment
+2025-12-04 17:40:32 | INFO     | utils.file_handler:validate_uploaded_file - File validated successfully: Krishna The God.pdf (0.12MB)
+2025-12-04 17:40:32 | INFO     | services.gemini_file_search:create_file_search_store - Creating file search store: cinema_os_rag_store
+2025-12-04 17:40:33 | INFO     | services.gemini_file_search:create_file_search_store - File search store created: fileSearchStores/cinemaosragstore-avx76cw2ropz
+2025-12-04 17:40:34 | INFO     | services.gemini_file_search:upload_files_to_store - Processing file: Krishna The God.pdf
+2025-12-04 17:40:34 | INFO     | services.gemini_file_search:upload_files_to_store - Uploading to store fileSearchStores/cinemaosragstore-avx76cw2ropz...
+2025-12-04 17:40:44 | INFO     | services.gemini_file_search:upload_files_to_store - File indexed successfully: Krishna The God.pdf
+2025-12-04 17:40:44 | INFO     | __main__:main - Rendering story console compartment

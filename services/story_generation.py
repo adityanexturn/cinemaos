@@ -3,6 +3,7 @@ Story Generation Service
 ------------------------
 Handles all interactions with Google Gemini API for creative story generation.
 This service transforms user ideas into multiple compelling story variations.
+Updated for Gemini 2.5 & Google Gen AI SDK v1.53+
 """
 
 from google import genai
@@ -62,18 +63,40 @@ class StoryGenerationService:
             }
         
         try:
-            cinema_logger.info(f"Generating {number_of_variations} variations for: {story_idea[:50]}...")
+            cinema_logger.info(f"Generating {number_of_variations} variations using {self.model_name}...")
             
             stories = []
             
-            # Estimate max tokens based on word count (approx 1.3 tokens per word) + buffer
+            # Estimate max tokens (approx 1.5 tokens per word is a safe buffer)
             max_tokens_limit = int(target_word_count * 1.5)
+
+            # 1. Define Safety Settings
+            # CRITICAL FIX: We set all thresholds to BLOCK_NONE to allow creative freedom.
+            # Without this, Gemini 2.5 often returns 'None' for stories with conflict/drama.
+            safety_settings = [
+                types.SafetySetting(
+                    category="HARM_CATEGORY_HARASSMENT",
+                    threshold="BLOCK_NONE"
+                ),
+                types.SafetySetting(
+                    category="HARM_CATEGORY_HATE_SPEECH",
+                    threshold="BLOCK_NONE"
+                ),
+                types.SafetySetting(
+                    category="HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    threshold="BLOCK_NONE"
+                ),
+                types.SafetySetting(
+                    category="HARM_CATEGORY_DANGEROUS_CONTENT",
+                    threshold="BLOCK_NONE"
+                ),
+            ]
             
             # Generate each variation separately
             for i in range(number_of_variations):
                 cinema_logger.info(f"Generating story variation {i + 1}/{number_of_variations}")
                 
-                # Create a unique prompt for each variation to ensure diversity
+                # Create a unique prompt for each variation
                 prompt = f"""
                 STORY IDEA: {story_idea}
                 
@@ -81,7 +104,7 @@ class StoryGenerationService:
                 VARIATION NUMBER: {i + 1}
                 
                 REQUIREMENTS:
-                - Tone: Engaging and Cinematic
+                - Tone: Cinematic and Engaging
                 - Structure: Clear beginning, middle, and end
                 - Length: Approximately {target_word_count} words
                 - Make this version distinct from a standard interpretation.
@@ -96,16 +119,23 @@ class StoryGenerationService:
                     config=types.GenerateContentConfig(
                         temperature=temperature,
                         max_output_tokens=max_tokens_limit,
-                        system_instruction="You are a professional screenwriter and creative storyteller. Your goal is to take simple ideas and turn them into compelling narratives."
+                        safety_settings=safety_settings, # Apply the safety fix
+                        system_instruction="You are a professional screenwriter and creative storyteller."
                     )
                 )
                 
-                # Extract text
-                story_text = response.text
+                # 2. Extract text with Null Safety
+                # CRITICAL FIX: Check if response.text exists before using it
+                story_text = response.text if response.text else ""
                 
-                # Get token usage if available (handle safely)
+                # If Gemini refused to generate text (rare with BLOCK_NONE, but possible)
+                if not story_text:
+                    cinema_logger.warning(f"Variation {i+1} returned empty text. Candidate finish reason: {response.candidates[0].finish_reason if response.candidates else 'Unknown'}")
+                    story_text = f"[Error: The model was unable to generate Variation {i+1}. It may have been overloaded or triggered a strict filter.]"
+                
+                # Get token usage safely
                 tokens_used = 0
-                if response.usage_metadata:
+                if hasattr(response, 'usage_metadata') and response.usage_metadata:
                     tokens_used = response.usage_metadata.total_token_count
                 
                 # Create story object
@@ -113,7 +143,7 @@ class StoryGenerationService:
                     'id': i + 1,
                     'title': f"Story Variation {i + 1}",
                     'content': story_text,
-                    'word_count': len(story_text.split()),
+                    'word_count': len(story_text.split()), # This is now safe because story_text is guaranteed to be a string
                     'tokens_used': tokens_used
                 }
                 

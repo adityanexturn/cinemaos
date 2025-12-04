@@ -11,11 +11,11 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 # -------------------
 # Left Compartment: RAG File Search
 # We use Flash for speed and high-volume context retrieval
-GEMINI_RAG_MODEL = os.getenv("GEMINI_RAG_MODEL", "gemini-1.5-flash")
+GEMINI_RAG_MODEL = os.getenv("GEMINI_RAG_MODEL", "gemini-2.5-flash")
 
 # Right Compartment: Story Generation
-# We use Pro for better creative writing, nuance, and reasoning
-GEMINI_CREATIVE_MODEL = os.getenv("GEMINI_CREATIVE_MODEL", "gemini-1.5-pro")
+# The standard Gemini 2.5 Flash model
+GEMINI_CREATIVE_MODEL = os.getenv("GEMINI_CREATIVE_MODEL", "gemini-2.5-flash")
 
 # Default generic model alias (for backward compatibility)
 GEMINI_MODEL = GEMINI_RAG_MODEL

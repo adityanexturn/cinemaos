@@ -8,7 +8,7 @@ APP_TAGLINE = "Your AI-Powered Story Production Studio"
 # AI Provider Info
 # Both sides now use Gemini, just different models or purposes
 LEFT_AI_PROVIDER = "Gemini File Search (RAG)"
-RIGHT_AI_PROVIDER = "Gemini 1.5 Pro (Creative)"
+RIGHT_AI_PROVIDER = "gemini-2.5-flash"
 
 # Session State Keys
 SESSION_KEYS = {
